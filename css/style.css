@@ -10,23 +10,38 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:antiquewhite;
-    padding: 15px 40px;
+    background-color:#103060;
+    padding: 5px 25px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo img {
+    height: 80px;
 }
 
 .menu{
     list-style: none;
     display: flex;
+    justify-content: center;
     gap: 25px;
+    
 }
 
 .menu li a {
-    color: black;
+    color: #ffff;
     text-decoration: none;
     font-size: 16px;
     transition: color 0.3s;
 }
 
 .menu li a:hover {
-    color:slateblue;
+    color:rgb(58, 0, 82);
 }
